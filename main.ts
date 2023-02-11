@@ -3,7 +3,7 @@ let X = 0
 let Y = 0
 let CompassVerdi = 0
 function VisKompass (Verdi: number) {
-    Retning = Math.map(Verdi + 22, 0, 355, 0, 7)
+    Retning = Math.map(Verdi + 22, 0, 355, 7, 0)
     if (Retning > 7) {
         Retning = 0
     } else {
